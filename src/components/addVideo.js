@@ -37,12 +37,13 @@ const AddVideo = () => {
         fetch(url + '/util/uploadFile', reqOptions)
             .then(res => res.json())
             .then(data => console.log(data))
-
     }
 
     const uploadVideo = (e) => {
 
     }
+
+    
 
     return (
         <div>
